@@ -11,11 +11,11 @@ class Launchk < Formula
 
   on_macos do
     url "https://github.com/mach-kernel/launchk/releases/download/#{version}/launchk-amd64.tar.gz"
-    sha256 "72c4d834d5ce1838551d444fe43f87d9ef1a6618bdbd2c5d38c737592ec50f1b"
+    sha256 "91f1125b795cc701319e6620853cdacba344f447fc7e7f844f80e25b528690f7"
 
     # if Hardware::CPU.intel?
       # url "https://github.com/mach-kernel/launchk/releases/download/#{version}/launchk-amd64.tar.gz"
-      # sha256 "72c4d834d5ce1838551d444fe43f87d9ef1a6618bdbd2c5d38c737592ec50f1b"
+      # sha256 "91f1125b795cc701319e6620853cdacba344f447fc7e7f844f80e25b528690f7"
     # end
 
     # still borken
