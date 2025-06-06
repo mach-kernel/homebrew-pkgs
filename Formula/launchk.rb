@@ -11,12 +11,12 @@ class Launchk < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mach-kernel/launchk/releases/download/launchk-#{version}/launchk-x86_64-apple-darwin.zip"
+      url "https://github.com/mach-kernel/launchk/releases/download/launchk-#{version}/launchk-x86_64-apple-darwin.tar.gz"
       sha256 "095a91f841a30937b61a72de8648c39ae9843c5dd6b5efa4077039766114e745"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/mach-kernel/launchk/releases/download/launchk-#{version}/launchk-aarch64-apple-darwin.zip"
+      url "https://github.com/mach-kernel/launchk/releases/download/launchk-#{version}/launchk-aarch64-apple-darwin.tar.gz"
       sha256 "078f14a86fcc023c43609d32be66990265557015bf154b1614bdc15deb315760"
     end
   end
